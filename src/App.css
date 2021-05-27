@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.App {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+.navHeader {
+  background-color:rgb(5, 139, 192);
+  display: flex;
+  height: 50px;
+  box-shadow: 3px 6px 6px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.textHeader {
+  color: white;
+  margin-left: 20px;
+  font-size: 30px;
+  margin-top: 5px;
+}
+h2 {
+  color: white;
+  font-weight: 100;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+h1{
+  color: rgb(97, 198, 238);
+  font-weight: 10;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.menu-control{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sort {
+  border: 2px solid lightblue;
+  padding: 5px;
+  margin-left: 10px;
+}
+.checkBoxFilter {
+  margin-left:10px;
+}
+.from-to-date {
+  border: 2px solid lightblue;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(5, 139, 192);
+  color: white;
+  padding: 8px 30px ;
+}
+
+.bodyControl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  height: 400px;
+}
+.rightDiv {
+  width: 60%;
+	border-right: 1px solid #c0c0c0;
+  margin-left: 100px;
+}
+.listToDo {
+  margin-top: 20px;
+  margin-right: 50px;
+}
+.leftDiv {
+  margin-top: 20px;
+  margin-left: 30px; 
+
+}
+
+.inputTask {
+  padding: 5px;
+  position: relative;
+  left: 8%;
+  border: 2px solid lightblue;
+  width: 75%;
+}
+.selectStatusPriority {
+  margin-top: 20px;
+  display: flex;
+}
+.selectDiv {
+  width: 50%;
+}
+.select {
+  padding: 5px;
+  position: relative;
+  left: 10%;
+  width: 100px;
+  border: 2px solid lightblue;
+}
+
+.list {
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.high {
+  background-color: pink;
+}
+.low {
+  background-color: rgb(187, 236, 255);
+}
+.done {
+  background-image: url(./items/check.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  background-position-x: 98%;
+}
+
+.progress {
+  background-image: url(./items/dash.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  background-position-x: 98%;
+  
+}
+.clickChoose {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
